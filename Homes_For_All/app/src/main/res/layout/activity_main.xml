@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.homes_for_all.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#ffffff"
+       android:orientation="vertical">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:id="@+id/image"
+                   android:layout_width="wrap_content"
+                   android:layout_height="170dp"
+                   android:padding="10dp"
+                   android:layout_gravity="center"
+                   android:scaleType="centerCrop"
+                  android:src="@drawable/pg"/>
+               <View
+                   android:layout_width="fill_parent"
+                   android:layout_height="0.1dp"
+                   android:background="#000"></View>
+
+               <ScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+                       <ImageView
+                           android:layout_width="70dp"
+                           android:layout_height="70dp"
+                           android:padding="5dp"
+                           android:src="@mipmap/ic_launcher"/>
+
+                       <ImageView
+                           android:layout_width="70dp"
+                           android:layout_height="70dp"
+                           android:padding="5dp"
+                           android:src="@mipmap/ic_launcher"/>
+
+                       <ImageView
+                           android:layout_width="70dp"
+                           android:layout_height="70dp"
+                           android:padding="5dp"
+                           android:src="@mipmap/ic_launcher"/>
+                    </LinearLayout>
+                    </ScrollView>
+               <View
+                   android:layout_width="fill_parent"
+                   android:layout_height="0.1dp"
+                   android:background="#f4f40d"></View>
+
+               <TextView
+                   android:id="@+id/Title"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="PG For Girls"
+                   android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+               <TextView
+                   android:id="@+id/Venue"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="Dharampur, Dehradun"
+                   android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+               <TextView
+                   android:id="@+id/Address"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="490,Adarsh Nagar, Near Rewati Nursing Home, Haridwar Road, Dehradun"
+                   android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+               <TextView
+                   android:id="@+id/Price"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="6500 per month"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#000"
+                   android:textStyle="bold"/>
+               <View
+                   android:layout_width="fill_parent"
+                   android:layout_height="0.1dp"
+                   android:layout_marginTop="10dp"
+                   android:background="#ccc"></View>
+
+               <TextView
+                   android:id="@+id/textView10"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="Tags"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="@color/colorPrimaryDark"/>
+
+               <TextView
+                   android:id="@+id/Tags"
+                   android:layout_width="wrap_content"
+                   android:layout_height="51dp"
+                   android:paddingLeft="10dp"
+                   android:text="Food Facility, Near Baluni Classes, almirah, inverter, geyser, 24hr water and electricity, parking space.\n"
+                   android:textAppearance="?android:attr/textAppearanceSmall" />
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:layout_marginTop="10dp"
+                   android:background="#ccc"></View>
+
+               <TextView
+                   android:id="@+id/textView9"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="Description"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="@color/colorPrimaryDark"/>
+               <TextView
+                   android:id="@+id/Description"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:text="TWIN SHARING is 4000/- per bed
+
+->>Dining table/living room is complimentary.\n
+->>fridge is also include.\n
+->>Maid also available for cleaning.\n
+->>Inverter complimentary with light and fan.\n
+->>Two separate bathrooms in which one is having western seat installed.\n
+->>Ample space for two wheeler parking only.\n\n
+*Note:- price mentioned below is electricity included.\n\n\n"
+                   android:textAppearance="?android:attr/textAppearanceMedium"/>
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+
+                   android:layout_marginTop="10dp"
+                   android:background="#ccc"></View>
+           </LinearLayout>
+       </ScrollView>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/function"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+
+            android:background="#df0606"
+            android:text="CALL"
+            android:textColor="#ffffff"/>
+
+           <Button
+               android:id="@+id/btMsg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="2dp"
+               android:layout_weight="1.0"
+               android:background="#fff"
+               android:text="SMS"
+               android:textColor="#000000"
+               android:textColorLink="#ff5869d9"/>
+
+           <Button
+               android:id="@+id/btnMsg"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="2dp"
+               android:layout_weight="1.0"
+               android:background="#df0606"
+               android:text="MESSAGE"
+               android:textColor="#ffffff"/>
+       </LinearLayout>
+</RelativeLayout>

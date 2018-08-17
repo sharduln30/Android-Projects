@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/green"
+        android:title="title1"
+        ></item>
+
+    <item
+        android:id="@+id/yellow"
+        android:title="title2"
+        ></item>
+    <item
+        android:id="@+id/red"
+        android:title="title3"
+        ></item>
+    <item
+        android:id="@+id/blue"
+        android:title="title4"
+        ></item>
+    <item
+        android:id="@+id/exit"
+        android:title="title"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        ></item>
+
+</menu>
